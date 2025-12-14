@@ -11,6 +11,10 @@ body{
 }
 
 nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1B1B1B;
     margin-left: 85px;
     margin-right: 85px;
@@ -32,8 +36,7 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     gap: 70px;
-    margin-top: 24px;
-    margin-right: 180px;
+    margin-left: 180px;
 }
 
 .navbar ul a{
@@ -48,4 +51,12 @@ nav{
     font-family: IBM Plex Mono;
     vertical-align: bottom;
 
+}
+
+.social-icons{
+    gap: 72px;
+}
+.link{
+    margin-right: 95.46px;
+    margin-left: 72px;
 }
